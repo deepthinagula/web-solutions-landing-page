@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header {
+    background-color: rgb(110, 3, 49) ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+}
+nav {
+    display: flex;
+}
+a {
+    color: rgb(251, 249, 249);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: snow;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    padding: 10px 10px;
+    background:  rgb(110, 3, 49);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#about {
+    background-color: rgba(197, 187, 187, 0.957);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(22, 22, 22);
+    height: 30vh;
+    text-align: center;
+}
+#services {
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    padding: 30px;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+.service-item {
+    padding: 10px;
+}
+.service-item p {
+   padding:10px;
+   font-size: 1.1rem;
+   
+}
+#contact {
+    background-color:rgba(197, 187, 187, 0.957);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 30px;
+}
+footer{
+    background-color:  rgb(110, 3, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+    .hero {
+        height:auto;
+        padding: 30px;
+
+    }
+    #about {
+        height: auto;
+        padding: 30px;
+    }
+    #services{
+        height: auto;
+        padding: 30px;
+    }
+    #contact{
+        height:auto;
+        padding: 30px;
+    }
+}
+    
+
+    
+
